@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Ram_portfolio/static/css/main.33276549.css",
-    "main.js": "/Ram_portfolio/static/js/main.7c95b017.js",
+    "main.css": "/Ram_portfolio/static/css/main.fc48cf84.css",
+    "main.js": "/Ram_portfolio/static/js/main.d49f6b00.js",
     "static/media/netflix.jpg": "/Ram_portfolio/static/media/netflix.77610b2c950486dbb80f.jpg",
     "static/media/web-removebg-preview.png": "/Ram_portfolio/static/media/web-removebg-preview.9fed7f1d0b7ca01038fd.png",
     "static/media/Web-designer-1024x821.webp": "/Ram_portfolio/static/media/Web-designer-1024x821.6e57f7f5669037a83b03.webp",
@@ -83,11 +83,11 @@
     "static/media/vuetifyjs.svg": "/Ram_portfolio/static/media/vuetifyjs.8a22a3ec81ad62e97094feab6e7ee0fb.svg",
     "index.html": "/Ram_portfolio/index.html",
     "static/media/bulma.svg": "/Ram_portfolio/static/media/bulma.5910d4416e077262d0264109649ab214.svg",
-    "main.33276549.css.map": "/Ram_portfolio/static/css/main.33276549.css.map",
-    "main.7c95b017.js.map": "/Ram_portfolio/static/js/main.7c95b017.js.map"
+    "main.fc48cf84.css.map": "/Ram_portfolio/static/css/main.fc48cf84.css.map",
+    "main.d49f6b00.js.map": "/Ram_portfolio/static/js/main.d49f6b00.js.map"
   },
   "entrypoints": [
-    "static/css/main.33276549.css",
-    "static/js/main.7c95b017.js"
+    "static/css/main.fc48cf84.css",
+    "static/js/main.d49f6b00.js"
   ]
 }
