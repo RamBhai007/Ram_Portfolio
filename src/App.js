@@ -1,14 +1,19 @@
 import { useEffect, useState } from 'react';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Preloader from '../src/components/PreLoader';
-import Home from './pages/Home';
-import About from './pages/About';
-import Project from './pages/Project';
-import Contact from './pages/Contact';
+
+// import Mobile from './pages/Mobile';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import Header from './components/Header';
+import HomePage from'./components/HomePage';
+import AboutPage from'./components/Aboutpage';
+import Projectlist from'./components//Projectlist';
+import ContactPage from'./components/Contactpage';
 
 function App() {
+
+  // const isMobile = window.innerWidth<=768;
   const [load, updateLoad] = useState(true);
 
   useEffect(() => {
@@ -24,14 +29,17 @@ function App() {
       
       <Router>
         <Preloader load={load} />
-        <div className="App" id={load ? 'no-scroll' : 'scroll'}>
+          <div className="App" id={load ? 'no-scroll' : 'scroll'}>
+            <Header/>
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/project" element={<Project />} />
-            <Route path="/contact" element={<Contact />} />
+            <Route path="/" element={<HomePage/>} />
+            <Route path="/about" element={<AboutPage />} />
+            <Route path="/project" element={<Projectlist />} />
+            <Route path="/contact" element={<ContactPage />} />
           </Routes>
         </div>
+        
+        
       </Router>
     </div>
   );
