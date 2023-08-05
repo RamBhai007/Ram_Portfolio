@@ -26,7 +26,7 @@ function Header() {
       expand="md"
       className={navColour ? "sticky" : "navbar"}
     >
-      <Navbar.Brand className="logotext" as={Link} to="/Ram_portfolio">
+      <Navbar.Brand className="logotext" as={Link} to="/">
         <div className="logo"></div>
       </Navbar.Brand>
 
@@ -44,7 +44,7 @@ function Header() {
       <Navbar.Collapse id="responsive-navbar-nav" className="responsive-navbar">
         <Nav className="ms-auto" defaultActiveKey="#home">
           <Nav.Item>
-            <NavLink className="nav-link" to="/Ram_portfolio" onClick={() => updateExpanded(false)}>
+            <NavLink className="nav-link" to="/" onClick={() => updateExpanded(false)}>
               Home
             </NavLink>
           </Nav.Item>

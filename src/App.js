@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Preloader from '../src/components/PreLoader';
 import Home from './pages/Home';
 import About from './pages/About';
@@ -26,7 +26,7 @@ function App() {
         <Preloader load={load} />
         <div className="App" id={load ? 'no-scroll' : 'scroll'}>
           <Routes>
-            <Route path="/Ram_portfolio" element={<Home />} />
+            <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/project" element={<Project />} />
             <Route path="/contact" element={<Contact />} />
