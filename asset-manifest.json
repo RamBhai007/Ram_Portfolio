@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/Ram_portfolio/static/css/main.33276549.css",
-    "main.js": "/Ram_portfolio/static/js/main.be76a5ea.js",
+    "main.js": "/Ram_portfolio/static/js/main.4be426d3.js",
+    "static/media/Disney.png": "/Ram_portfolio/static/media/Disney.8e4d3ab1e9ebb1a917d4.png",
     "static/media/netflix.jpg": "/Ram_portfolio/static/media/netflix.77610b2c950486dbb80f.jpg",
     "static/media/web-removebg-preview.png": "/Ram_portfolio/static/media/web-removebg-preview.9fed7f1d0b7ca01038fd.png",
     "static/media/Web-designer-1024x821.webp": "/Ram_portfolio/static/media/Web-designer-1024x821.6e57f7f5669037a83b03.webp",
@@ -16,7 +17,7 @@
     "static/media/react.svg": "/Ram_portfolio/static/media/react.2b6a071759fcdac074f4dcad26eef347.svg",
     "static/media/webix.svg": "/Ram_portfolio/static/media/webix.99dfb57fb4bc6e1c39d735e6a4ee66ca.svg",
     "static/media/mysql.svg": "/Ram_portfolio/static/media/mysql.f9e45d29a8d636bf8f78c9c346b7a7ce.svg",
-    "static/media/aspnet.svg": "/Ram_portfolio/static/media/aspnet.efd2db06ccdecaedc9577c8f673969b9.svg",
+    "static/media/aspnet.svg": "/Ram_portfolio/static/media/aspnet.4de5129d7da547762441674950a2c461.svg",
     "static/media/gcp.svg": "/Ram_portfolio/static/media/gcp.1b20e46ec8505993c7f862d5a87cfa1b.svg",
     "static/media/docker.svg": "/Ram_portfolio/static/media/docker.a6221ab3e1802ecb0dbf7045de66c953.svg",
     "static/media/firebase.svg": "/Ram_portfolio/static/media/firebase.99786447afca441defd7055cd07141b7.svg",
@@ -84,10 +85,10 @@
     "index.html": "/Ram_portfolio/index.html",
     "static/media/bulma.svg": "/Ram_portfolio/static/media/bulma.5910d4416e077262d0264109649ab214.svg",
     "main.33276549.css.map": "/Ram_portfolio/static/css/main.33276549.css.map",
-    "main.be76a5ea.js.map": "/Ram_portfolio/static/js/main.be76a5ea.js.map"
+    "main.4be426d3.js.map": "/Ram_portfolio/static/js/main.4be426d3.js.map"
   },
   "entrypoints": [
     "static/css/main.33276549.css",
-    "static/js/main.be76a5ea.js"
+    "static/js/main.4be426d3.js"
   ]
 }
